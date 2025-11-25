@@ -70,6 +70,8 @@
     "@commitlint/config-conventional": "^20.0.0",
     "@date-fns/tz": "^1.4.1",
     "@eslint-react/eslint-plugin": "^2.3.7",
+    "@svgr/core": "^8.1.0",
+    "@svgr/plugin-jsx": "^8.1.0",
     "@tanstack/eslint-plugin-query": "^5.91.2",
     "@tanstack/eslint-plugin-router": "^1.139.0",
     "@tanstack/router-plugin": "^1.139.3",
