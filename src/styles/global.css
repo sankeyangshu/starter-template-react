@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@theme {
+  --color-background: oklch(0.9612 0.0041 271.37);
+  --color-primary: oklch(67.22% 0.2225 271.37);
+}
+
+[data-theme='dark'] {
+  --color-background: oklch(0.1913 0 0);
+  --color-primary: oklch(67.22% 0.2225 271.37);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: oklch(0 0 0 / 25%) transparent;
+}
+
+html {
+  height: 100dvh;
+}
+
+body {
+  background-color: var(--color-background);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+/* Prevent focus zoom on mobile devices(防止移动端输入框聚焦时放大) */
+@media screen and (max-width: 767px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
