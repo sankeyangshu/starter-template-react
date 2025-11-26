@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 import viteRestart from 'vite-plugin-restart';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { setupHtmlPluginConfig } from './html';
-import { setupUnPluginIconConfig } from './unplugin';
+import { setupUnPluginSvgIconConfig } from './unplugin';
 
 /**
  * 配置 vite 插件
@@ -31,7 +31,7 @@ export function createVitePlugins(viteEnv: Env.ImportMeta, lastBuildTime: string
 
     tsconfigPaths(),
 
-    ...setupUnPluginIconConfig(viteEnv),
+    setupUnPluginSvgIconConfig(viteEnv),
 
     // 通过这个插件，再修改vite.config.ts文件则不需要重新运行也生效配置
     viteRestart({
