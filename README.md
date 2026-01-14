@@ -14,10 +14,6 @@
 > [!NOTE]
 > 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！
 
-## 在线预览
-
-👓 [点击这里](https://starter-template-react.vercel.app)（PC浏览器请切换手机端模式）
-
 ## 其他模版
 
 - [lemon-mobile-react](https://github.com/sankeyangshu/lemon-mobile-react) - 基于 React 生态系统的移动 web 应用模板
