@@ -11,10 +11,6 @@
 <sub>Starter template for React</sub>
 </h2>
 
-_description_
-
-> **Note**:
-> Replace `starter-template-react`, `_description_` and `sankeyangshu` globally to use this template.
 > [!NOTE]
 > 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！
 
