@@ -27,7 +27,7 @@ function App() {
     try {
       await navigator.clipboard.writeText(text);
       setCopiedText(label);
-      setTimeout(() => setCopiedText(''), 2000);
+      setTimeout(setCopiedText, 2000, '');
     } catch (err) {
       console.error('复制失败:', err);
     }
